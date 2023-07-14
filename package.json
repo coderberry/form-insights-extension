@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "format": "prettier --write --plugin-search-dir=. ./src/**/*.html"
+    "format": "prettier . --write"
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "2.0.0-beta.12",
@@ -17,7 +17,7 @@
     "@types/chrome": "^0.0.241",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.26",
-    "prettier": "^3.0.0",
+    "prettier": "3.0.0",
     "prettier-plugin-svelte": "^2.10.1",
     "svelte": "^4.0.3",
     "svelte-check": "^3.4.4",

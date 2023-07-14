@@ -6,5 +6,12 @@
   "action": {
     "default_popup": "src/popup/index.html"
   },
+  "options_ui": {
+    "page": "src/options/index.html",
+    "open_in_tab": true
+  },
+  "chrome_url_overrides": {
+    "newtab": "src/new-tab/index.html"
+  },
   "permissions": ["storage"]
 }
