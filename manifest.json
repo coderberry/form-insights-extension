@@ -1,0 +1,10 @@
+{
+  "name": "Form Insights Chrome Extension",
+  "description": "View the current form values with a click of a button",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "src/popup/index.html"
+  },
+  "permissions": ["storage"]
+}
